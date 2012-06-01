@@ -1,0 +1,117 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+BODY
+*/
+
+body {
+	background: #f2f2f2;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+	height: 100%; 
+	max-height: 100%; 
+}
+
+#framecontentLeft, #framecontentTop{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif;
+	color: #333;
+	font-size: 16px;
+	-webkit-font-smoothing: antialiased;
+	position: absolute; 
+	padding-top: 7%;
+	top: 0; 
+	left: 0; 
+	width: 200px; /*Width of left frame div*/
+	height: 100%;
+	overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+	background: #58A8DE;
+	color: white;
+	text-align: right;
+}
+
+#framecontentTop{ 
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif;
+	color: #333;
+	padding-top: 2%;
+	font-size: 28px;
+	left: 200px; /*Set left value to WidthOfLeftFrameDiv*/
+	right: 0;
+	width: auto;
+	height: 100px; /*Height of top frame div*/
+	overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+	background: #58A8DE;
+	color: white;
+	text-align: center;
+	vertical-align: center;
+}
+
+#framecontentHead{ 
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif;
+	color: #333;
+	padding-top: 2%;
+	font-size: 28px;
+	left: 0; /*Set left value to WidthOfLeftFrameDiv*/
+	right: 0;
+	width: auto;
+	height: 100px; /*Height of top frame div*/
+	overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+	background: #58A8DE;
+	color: white;
+	text-align: center;
+	vertical-align: center;
+}
+
+#maincontent{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif;
+	color: #333;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+	position: fixed; 
+	left: 150px; /*Set left value to WidthOfLeftFrameDiv*/
+	top: 100px; /*Set top value to HeightOfTopFrameDiv*/
+	right: 0;
+	bottom: 0;
+	overflow: auto; 
+	background: #fff;
+}
+
+.innertubetop{
+	margin: 0px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+}
+
+.innertubeleft{
+	margin: 60px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+}
+
+.innertubemain{
+	margin: 100px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+}
+
+.title {
+
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif;
+	color: #333;
+	font-size: 16px;
+	background: #f2f2f2;
+	-webkit-font-smoothing: antialiased;
+	padding-left: 39%;
+}
+
+.list {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, sans-serif;
+	color: #333;
+	font-size: 14px;
+	background: #f2f2f2;
+	-webkit-font-smoothing: antialiased;
+	padding-left: 39%;
+}
+
+.button {
+	padding-top: 1%;
+	padding-left: 44%;
+}
+

@@ -1,0 +1,47 @@
+<html>
+	<head>
+        <link rel="stylesheet" type="text/css" href="css/buttons.css" />
+        <link rel="stylesheet" type="text/css" href="css/body.css" />
+		<link rel="stylesheet" type="text/css" href="css/framelayout.css" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+		<script language='Javascript' type='text/javascript'>
+		<!--
+			function pushsubmit( option )
+			{
+			  document.input.sendmywishes.value = option;
+			  document.input.submit() ;
+			}
+		--></script>
+	</head>
+	<body>
+		<!--<center>-->
+		<div id="framecontentHead"> 
+		<div class="innertubetop">
+		My Wish List
+		</div>
+		</div>
+		
+		<div id="framecontentmain">
+		<div class="innertubemain">
+		<p class="title"> Create your Wish List </p>
+		
+		<form method="POST" name="input" ACTION="WishList">
+		
+			<p class="list">
+				<input type="text" name="1" size="30"/> <br/>
+				<input type="text" name="2" size="30"/> <br/>
+				<input type="text" name="3" size="30"/> <br/>
+			</p>
+
+               <p class="button">
+				<input type="hidden" name="sendmywishes"/>
+                  <a class="a_demo_four" href="javascript:pushsubmit('send')">
+                            Create
+                   </a>
+               </p>
+		</form>
+		</div>
+		</div>
+		<!--</center>-->
+	</body>
+</html>
